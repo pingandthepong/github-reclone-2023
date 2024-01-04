@@ -217,6 +217,12 @@ header .sub-menu li a:hover {
 
 .section--visual .inner {
   padding: 160px 0;
+  display: flex;
+  gap: 90px;
+}
+
+.section--visual .summary {
+  flex: 1;
 }
 
 .section--visual .summary__title {
@@ -232,6 +238,7 @@ header .sub-menu li a:hover {
 
 #sign-form {
   width: 340px;
+  margin-top: 16px;
 }
 
 #sign-form li:not(:last-child) {
