@@ -1,4 +1,8 @@
 /* COMMON */
+a {
+  text-decoration: none;
+}
+
 .btn {
   height: 34px;
   background: #eee linear-gradient(to bottom, #fcfcfc, #eee);
@@ -13,6 +17,7 @@
   cursor: pointer;
   box-sizing: border-box;
   position: relative;
+  color: #333;
 }
 
 .btn:hover::before {
