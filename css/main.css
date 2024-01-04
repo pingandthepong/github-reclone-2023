@@ -77,10 +77,30 @@ a {
 .summary {
 }
 
-.summary--title {
+.summary__title {
+  font-size: 38px;
+  font-weight: 300;
+  line-height: 1.25;
+  margin-bottom: 18px;
 }
 
-.summary--description {
+.summary__description {
+  font-size: 26px;
+  font-weight: 300;
+  color: #767676;
+  line-height: 1.5;
+}
+
+/* .section & .inner */
+.section {
+  position: relative;
+}
+
+.section .inner {
+  max-width: 980px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  position: relative;
 }
 
 /* .body__container */
@@ -99,9 +119,7 @@ header {
 }
 
 header .inner {
-  max-width: 980px;
   height: 78px;
-  margin: 0 auto;
 }
 
 header .menu-group {
@@ -184,4 +202,30 @@ header .sub-menu li a:hover {
 
 /* VISUAL */
 .section--visual {
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: cover;
+}
+
+.section--visual::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.section--visual .inner {
+  padding: 160px 0;
+}
+
+.section--visual .summary__title {
+  color: #fff;
+  font-size: 54px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 1px 25px rgba(0, 0, 0, 0.75);
+}
+
+.section--visual .summary__description {
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 1px 25px rgba(0, 0, 0, 0.75);
 }
