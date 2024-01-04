@@ -73,6 +73,16 @@ a {
   float: right;
 }
 
+/* .summary */
+.summary {
+}
+
+.summary--title {
+}
+
+.summary--description {
+}
+
 /* .body__container */
 .body__container {
   font-family: "Roboto", sans-serif;
@@ -170,4 +180,8 @@ header .sub-menu li a {
 
 header .sub-menu li a:hover {
   color: #4078c0;
+}
+
+/* VISUAL */
+.section--visual {
 }
