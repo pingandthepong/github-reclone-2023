@@ -503,6 +503,12 @@ footer .logo:hover svg {
     text-align: center;
   }
 
+  header .sub-menu {
+    margin-top: 12px;
+    margin-right: 0;
+    justify-content: center;
+  }
+
   header .toggle {
     /* display: none; */
   }
