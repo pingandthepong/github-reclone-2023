@@ -492,6 +492,17 @@ footer .logo:hover svg {
     margin-bottom: 12px;
   }
 
+  #search-form {
+    margin-top: 12px;
+    margin-right: 0;
+  }
+
+  #search {
+    width: 100%;
+    height: 42px;
+    text-align: center;
+  }
+
   header .toggle {
     /* display: none; */
   }
