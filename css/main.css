@@ -454,12 +454,29 @@ footer .logo:hover svg {
     float: none;
   }
 
-  header .toggle {
-    display: none;
+  header .menu-group {
+    display: block;
   }
 
   header .logo {
     padding: 12px 0;
+  }
+
+  header .main-menu {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  header .main-menu li {
+    border-top: 1px solid #e5e5e5;
+  }
+
+  header .main-menu li a {
+    padding: 16px 0;
+  }
+
+  header .toggle {
+    /* display: none; */
   }
 
   #toggle-btn {
