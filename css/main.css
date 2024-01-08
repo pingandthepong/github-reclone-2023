@@ -510,7 +510,11 @@ footer .logo:hover svg {
   }
 
   header .toggle {
-    /* display: none; */
+    display: none;
+  }
+
+  header .toggle.on {
+    display: block;
   }
 
   #toggle-btn {
