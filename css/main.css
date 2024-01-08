@@ -448,8 +448,13 @@ footer .logo:hover svg {
     height: auto;
     padding: 0 20px;
   }
+
   header .menu-group,
   header .sign-group {
     float: none;
+  }
+
+  header .toggle {
+    display: none;
   }
 }
