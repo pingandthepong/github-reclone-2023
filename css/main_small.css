@@ -1,0 +1,54 @@
+/* COMMON */
+.summary__title {
+  font-size: 34px !important;
+}
+
+.summary__description {
+  font-size: 22px;
+}
+
+/* FEATURE */
+.section--feature .tiles ul {
+  grid-template-columns: 1fr;
+}
+
+.section--feature .tiles li {
+  border-right: none;
+}
+
+.section--feature .tiles li:not(:last-child) {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* WHERE IS */
+#map {
+  width: auto;
+  margin: 40px -20px 0;
+  border-left: none;
+  border-right: none;
+}
+
+/* pricing card */
+.section--pricing .card {
+  display: block;
+}
+
+.section--pricing .cell2 {
+  border-left: none;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* FOOTER */
+footer .inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .site-links li {
+  margin-right: 14px;
+}
+
+footer .site-links:first-child {
+  margin-bottom: 24px;
+}
