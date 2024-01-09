@@ -554,4 +554,21 @@ footer .logo:hover svg {
     max-width: 500px;
     margin: 0 auto;
   }
+
+  /* FEATURE */
+  .section--feature .summary {
+    padding: 66px 20px 0 20px;
+  }
+
+  .section--feature .tiles ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section--feature .tiles li:nth-child(2) {
+    border-right: none;
+  }
+
+  .section--feature .tiles li img {
+    padding: 14px 30% 24px;
+  }
 }
